@@ -87,3 +87,29 @@ console.log(tinderUser);
 
 //  ++++++++++++++++++++++ De-Structure/JSON API ++++++++++++++++++++++
 
+const course = {
+    coursename: "js",
+    price: "999",
+    courseInstructor: "Moon"
+}
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+// const navbar = ({company}) => { || ({}) curly bracess manei de structure.
+
+// }
+// navbar(company = "Moon")
+
+
+// // json formate 
+// {
+//     "name": "Moon",
+//     "coursename": "Js",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
